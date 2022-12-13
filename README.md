@@ -5,18 +5,22 @@ The motivation for this project was to create a portfolio for my work as a devel
 
 ### Improvements from the previous non-bootstrap portfolio 
 
-* The timeline for the project was much more effecient with Bootstrap's pre-defined classes. 
-
-* Bootstrap not only made it easier to create a portfolio, but also simpler to develop a website that aligns with UX experience design principles. 
+* More efficient development timeline with pre-defined Bootstrap classes
+* Improved user experience with alignment to UX design principles
+* Responsive design for improved accessability on different devices
+* Simplified codebase and easier customization options with Bootstrap styles and components
 
 ### What I have learnt 
 
-* I have learnt the power of Bootstrap to speed up application development. 
-
-* I have learnt to use Bootstrap to create sites that are responsive, and therefore to promote accessability. 
+* The benefits of using Bootstrap for faster and more efficient development
+* How to utilize Bootstrap styles and components to create a responsive and accessible website
+* The importance of aligning with UX design principles for improved user experience
+* The value of pre-defined classes and customizable options in simplifying the codebase and facilitating customization.
 
 ## Usage 
-To use this project, please access my Portfolio site at the following link: 
+To use this project, please access my Portfolio site at the following link: https://harrygarstang.github.io/Bootstrap-Portfolio/
+
+Here is a screenshot of my project. 
 
 ![Image of HTML code with semantic structure](./images/screenshot-bootstrap-readme.png)
 
