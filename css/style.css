@@ -1,3 +1,101 @@
+/* body styling */
 body {
-    background-color: blueviolet;
+  background-color: rgb(30, 30, 30);
+  color: rgb(255, 255, 255);
+  font-family: Helvetica, Arial , sans-serif;
+
+  /* card styling */
+}
+
+.cardContainer {
+  margin-top: 20px;
+}
+
+.card {
+  margin: 0 auto;
+}
+
+.cardStylez {
+  background-color: rgba(255, 255, 255, 0.698);
+  color: rgb(0, 0, 0);
+}
+
+.content {
+  padding: 50px;
+}
+
+.sectionHeading {
+  text-align: center;
+}
+
+.MyProjects {
+  padding: 0px 30px 30px 30px;
+}
+
+.cardContainer {
+  text-align: center;
+}
+
+.valueProp {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.sideAccent {
+  background-color: #ffffffb5;
+  width: 15px;
+}
+
+.imageContainer {
+  padding: 50px;
+}
+
+.imageContainer img {
+  width: 100%;
+}
+
+/* navbar */
+li {
+  margin-left: 13vw;
+}
+/* jumbotron styling */
+.jumbotron {
+  background-color: black;
+}
+
+/* skills section */
+.img-fluid {
+  max-width: 100%;
+  height:auto;
+}
+
+.no-padding {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+/* On screens that are 600px or less, reduces padding */
+@media screen and (max-width: 600px) {
+  .no-padding {
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+}
+
+/*CONTACT */
+.text-primary {
+  color: #000000;
+}
+
+/* footer */
+footer {
+  padding: 25px 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #222222;
+}
+
+footer p {
+  font-size: 12px;
+  margin: 0;
 }

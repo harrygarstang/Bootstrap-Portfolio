@@ -1,61 +1,280 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-gb">
 
 <head>
-    <!-- META TAGS -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- BOOTSTRAP CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-
-
-
-
-    <title>Harry's BS4 Portfolio</title>
+    <title>Harry's Portfolio</title>
 </head>
 
 <body>
 
-    <div class="jumbotron">
-        <h1 class="display-4">Hello, world!</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+
+
+    <!-- Jumbotron HERO Section -->
+    <div class="jumbotron text-center">
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <img src="./images/UWE ID Photo.jpg" width="90" height="90" alt="Profile picture of developer">
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- End of navbar -->
+        <h1 class="display-4">Harry Garstang - Front End Developer</h1>
+
+        <!-- End of Jumbotron HERO section -->
+
+
+
+    </div>
+
+    <!-- Work section -->
+
+    <div class="container-fluid content">
+        <h2 class="sectionHeading">My projects</h2>
+        <div class="row MyProjects">
+
+            <!-- Showcase larger card -->
+            <div class="cardContainer col-lg-12 col-md-12 col-sm-12">
+                <div class="card cardStylez">
+                    <img src="./images/02-portfolio-1.jpg" class="card-img-top" alt="Image of red LCD screen">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's
+                            content.</p>
+                        <a href="#" class="btn btn-primary ">See project</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 1 -->
+            <div class="cardContainer col-lg-3 col-md-3 col-sm-12 d-flex align-items-stretch">
+                <div class="card cardStylez">
+                    <img src="./images/02-portfolio-2.jpg" class="card-img-top"
+                        alt="Image of calculator on laptop screen">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's
+                            content.</p>
+                        <a href="#" class="btn btn-primary">See project</a>
+                    </div>
+                </div>
+            </div>
+            <!-- End card 1 -->
+
+            <!-- Card 2 -->
+            <div class="cardContainer col-lg-3 col-md-3 col-sm-12 d-flex align-items-stretch">
+                <div class="card cardStylez">
+                    <img src="./images/02-portfolio-3.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 3</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's
+                            content.</p>
+                        <a href="#" class="btn btn-primary">See project</a>
+                    </div>
+                </div>
+            </div>
+            <!-- End card 2 -->
+
+            <!-- Card 3 -->
+            <div class="cardContainer col-lg-3 col-md-3 col-sm-12 d-flex align-items-stretch">
+                <div class="card cardStylez">
+                    <img src="./images/02-portfolio-4.jpg" class="card-img-top"
+                        alt="Image of the beach with a surfer in the distance">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 4</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's
+                            content.</p>
+                        <a href="#" class="btn btn-primary">See project</a>
+                    </div>
+                </div>
+            </div>
+            <!-- End card 3 -->
+
+            <!-- Card 4 -->
+            <div class="cardContainer col-lg-3 col-md-3 col-sm-12 d-flex align-items-stretch">
+                <div class="card cardStylez">
+                    <img src="./images/02-run-buddy.jpg" class="card-img-top"
+                        alt="Image of a run buddy application website demonstrating its functionality to start building habits for the user ">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 5</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's
+                            content.</p>
+                        <a href="#" class="btn btn-primary">See project</a>
+                    </div>
+                </div>
+            </div>
+            <!-- End card 4 -->
+
+        </div>
+    </div>
+    <!-- End cards -->
+
+    <!-- End of Work section -->
+
+    <!-- Skills section -->
+
+
+<div class="container-fluid content">
+    <h2 class="sectionHeading">Skills I've learnt from the Bootcamp</h2>
+    <!-- Row 1 -->
+    <div class="row valueProp">
+      <div class="sideAccent">
       </div>
+      <div class="col-3 imageContainer img-fluid no-padding">
+        <img src="./images/html5-image.png" alt="Logo for HTML5">
+      </div>
+      <div class="col-8">
+        <h3>HTML</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.
+        </p>
+        </a>
+      </div>
+    </div>
+    <!-- End row 1 -->
+
+    <!-- row 2 -->
+    <div class="row valueProp">
+      <div class="sideAccent">
+      </div>
+      <div class="col-3 imageContainer img-fluid no-padding">
+        <img src="./images/css-image.png" alt="Logo for CSS">
+      </div>
+      <div class="col-8">
+        <h3>CSS</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.
+        </p>
+        </a>
+      </div>
+    </div>
+    <!-- end row 2 -->
+    <!-- row 3 -->
+    <div class="row valueProp">
+      <div class="sideAccent">
+      </div>
+      <div class="col-3 imageContainer img-fluid no-padding">
+        <img src="./images/bootstrap-image.png" alt="Logo for Bootstrap">
+      </div>
+      <div class="col-8">
+        <h3>Bootstrap</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.
+        </p>
+        </a>
+      </div>
+    </div>
+    <!-- end row 3 -->
+  </div>
+
+  <!-- end of skills section -->
+
+  <!-- Contact -->
+
+ <section class="contact-section text-primary ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Github</h4>
+              <hr class="my-4" />
+              <div class="small text-black-50"><a href="#!">hello@california.com</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-envelope text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Email</h4>
+              <hr class="my-4" />
+              <div class="small text-black-50"><a href="#!">hello@california.com</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-mobile-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Spotify</h4>
+              <hr class="my-4" />
+              <div class="small text-black-50"><a href="#!">hello@california.com</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="social d-flex justify-content-center">
+        <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+        <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+        <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container text-center">
+      <p>&copy; Harry Garstang 2022. All Rights Reserved.</p>
+
+    </div>
+  </footer>
 
 
+    <!-- Optional JavaScript; choose one of the two! -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Bootstrap's required JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+
 
 </body>
 
