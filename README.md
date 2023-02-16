@@ -1,4 +1,4 @@
-# Bootstrap-Portfolio (Bootcamp Challenge 3)
+# Bootstrap-Portfolio 
 
 ## Description 
 The motivation for this project was to create a portfolio for my work as a developer similar to the previous project, however this time utilising Bootstrap 4.6. 
